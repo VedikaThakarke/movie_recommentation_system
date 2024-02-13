@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .movie-card {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .movie-card:hover {
+            transform: scale(1.05);
+        }
+
+        .movie-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .movie-description {
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Movie Recommendations</h1>
+    </header>
+
+    <main>
+        <div class="movie-card">
+            <h2 class="movie-title">Inception</h2>
+            <p class="movie-description">A mind-bending thriller directed by Christopher Nolan.</p>
+        </div>
+
+        <div class="movie-card">
+            <h2 class="movie-title">The Shawshank Redemption</h2>
+            <p class="movie-description">Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</p>
+        </div>
+
+        <div class="movie-card">
+            <h2 class="movie-title">The Dark Knight</h2>
+            <p class="movie-description">The Joker wreaks havoc and chaos on the people of Gotham, challenging Batman to stop him.</p>
+        </div>
+
+        <div class="movie-card">
+            <h2 class="movie-title">Pulp Fiction</h2>
+            <p class="movie-description">The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.</p>
+        </div>
+
+        <!-- Add more recommended movies as needed -->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Movie Recommendations</p>
+    </footer>
+
+</body>
+</html>
